@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="{{url_for('todo-item.static', filename='socketio-2.3.0.js')}}"></script>
+    <script src="{{url_for('todo-item.static', filename='element.js')}}"></script>
+    <script type="module" src="{{url_for('todo-item.webcomponent')}}"></script>
+  </head>
+  <body>
+  <form-todo-item></form-todo-item>
+  <ul-todo-item></ul-todo-item>
+  </body>
+</html>

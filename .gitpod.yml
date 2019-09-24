@@ -1,0 +1,6 @@
+tasks:
+  - before: pip3 install flask-socketio-lit-html
+    command: python3 app.py
+ports:
+  - port: 5000
+    onOpen: open-preview
