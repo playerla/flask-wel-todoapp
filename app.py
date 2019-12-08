@@ -1,5 +1,6 @@
 from flask_socketio_lit_html.webcomponent_base import FlaskWelApp, db
 from flask import render_template
+from os import environ
 
 
 class Todo(db.Model):
@@ -17,4 +18,4 @@ class TodoApp(FlaskWelApp):
 
 
 if __name__ == "__main__":
-    TodoApp().runApp()
+    TodoApp().runApp(port=environ.get('PORT') or 5000)
