@@ -16,8 +16,7 @@ class TodoApp(FlaskWelApp):
         # TodoApp main page
         self.add_url_rule('/', "TodoApp", lambda : render_template('app.html'))
 
-def app(environ, start_response=None):
-    TodoApp().runApp(port=environ.get('PORT') or 5000)
+app = TodoApp()
 
 if __name__ == "__main__":
-    app(environ)
+    app.runApp(port=environ.get('PORT') or 5000)
