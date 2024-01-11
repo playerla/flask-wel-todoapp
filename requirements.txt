@@ -1,2 +1,3 @@
 flask-socketio-lit-html
 gunicorn
+jinja2>=3.1.3 # not directly required, pinned by Snyk to avoid a vulnerability
