@@ -1,0 +1,17 @@
+{
+	"name": "Python 3.9",
+	"mounts": [
+    	"source=vscode-global-storage,target=/home/vscode/.vscode-server/data/User/globalStorage,type=volume",
+    	"source=vscode-global-cline,target=/home/vscode/.cline,type=volume"
+  	],
+	"build" : {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"saoudrizwan.claude-dev"
+			]
+		}
+	}
+}
