@@ -4,11 +4,6 @@
 - Provided with default values - Learn the essential
 - Designed for simplicity and performance - from python backend to javascript frontend
 
-# Try it now
-
-[![Go to app](https://img.shields.io/badge/Open-darkblue?style=for-the-badge)](https://flask-wel-todoapp.herokuapp.com/)
-
-[![Edit with Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/playerla/flask-wel-todoapp)
 
 # Quick Start
 
